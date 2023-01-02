@@ -1,0 +1,877 @@
+Last login: Wed Nov 23 18:31:44 on ttys000
+zhulijuan@zhulijuans-MacBook-Pro ~ % mysql -u root -p
+zsh: command not found: mysql
+zhulijuan@zhulijuans-MacBook-Pro ~ % cd /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0\ -\ Web\ Development\ 1\ -Lecture/code/DB-mySQL
+zhulijuan@zhulijuans-MacBook-Pro DB-mySQL % mysql -u root -p
+zsh: command not found: mysql
+zhulijuan@zhulijuans-MacBook-Pro DB-mySQL % cd /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0\ -\ Web\ Development\ 1\ -Lecture/code/mysql-and-node-with-join 
+zhulijuan@zhulijuans-MacBook-Pro mysql-and-node-with-join % npm install express mysql
+
+added 12 packages, and audited 70 packages in 634ms
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+zhulijuan@zhulijuans-MacBook-Pro mysql-and-node-with-join % node mysq-join.js
+Listening on port 8000!
+Error: Cannot find module 'mysql2'
+Require stack:
+- /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js:23:19
+    at Layer.handle [as handle_request] (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/index.js:284:15
+Error: Cannot find module 'mysql2'
+Require stack:
+- /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js:23:19
+    at Layer.handle [as handle_request] (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/index.js:284:15
+npm start
+^C
+zhulijuan@zhulijuans-MacBook-Pro mysql-and-node-with-join % npm start
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhulijuan/.npm/_logs/2022-11-24T04_22_35_126Z-debug-0.log
+zhulijuan@zhulijuans-MacBook-Pro mysql-and-node-with-join % node mysq-join.js
+Listening on port 8000!
+Error: Cannot find module 'mysql2'
+Require stack:
+- /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js:23:19
+    at Layer.handle [as handle_request] (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/index.js:284:15
+Error: Cannot find module 'mysql2'
+Require stack:
+- /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js:23:19
+    at Layer.handle [as handle_request] (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/index.js:284:15
+^C
+zhulijuan@zhulijuans-MacBook-Pro mysql-and-node-with-join % mysql -u root -p
+zsh: command not found: mysql
+zhulijuan@zhulijuans-MacBook-Pro mysql-and-node-with-join % cd /Applications/XAMPP/xamppfiles
+zhulijuan@zhulijuans-MacBook-Pro xamppfiles % ls 
+README-wsrep	ctlscript.sh	info		modules		share
+README.md	docs		lib		mysql		temp
+RELEASENOTES	error		libexec		pear		var
+THIRDPARTY	etc		licenses	php		xampp
+apache2		htdocs		logs		phpmyadmin
+bin		icons		man		proftpd
+build		img		manager-osx.app	properties.ini
+cgi-bin		include		manual		sbin
+zhulijuan@zhulijuans-MacBook-Pro xamppfiles % ls -al
+total 360
+drwxrwxr-x   39 root       admin    1248 22 Nov 15:08 .
+drwxrwxr-x   11 root       admin     352 22 Nov 15:07 ..
+-rw-r--r--@   1 zhulijuan  admin    6148 22 Nov 15:08 .DS_Store
+-rw-rw-r--    1 root       admin   19518  2 Nov 05:18 README-wsrep
+-rw-rw-r--    1 root       admin    2874  2 Nov 05:18 README.md
+-rw-rw-r--    1 root       admin    8905 22 Nov 11:33 RELEASENOTES
+-rw-rw-r--    1 root       admin   86263  2 Nov 05:18 THIRDPARTY
+drwxrwxr-x    6 root       admin     192 22 Nov 14:59 apache2
+drwxr-xr-x  354 root       admin   11328 22 Nov 14:59 bin
+drwxrwxr-x   15 root       admin     480 22 Nov 15:01 build
+drwxrwxr-x    6 root       admin     192 22 Nov 14:59 cgi-bin
+-rwxrwxr-x    1 root       admin   25770 22 Nov 14:59 ctlscript.sh
+drwxrwxr-x    2 root       admin      64 22 Nov 15:01 docs
+drwxrwxr-x   23 root       admin     736 22 Nov 14:59 error
+drwxrwxr-x   23 root       admin     736 22 Nov 14:59 etc
+drwxrwxr-x    9 root       admin     288 22 Nov 14:59 htdocs
+drwxrwxr-x  179 root       admin    5728 22 Nov 14:59 icons
+drwxrwxr-x    3 root       admin      96 22 Nov 14:59 img
+drwxrwxr-x  231 root       admin    7392 22 Nov 15:01 include
+drwxrwxr-x    5 root       admin     160 22 Nov 15:01 info
+drwxr-xr-x  151 root       admin    4832 22 Nov 14:59 lib
+drwxrwxr-x    2 root       admin      64 22 Nov 14:59 libexec
+drwxrwxr-x   61 root       admin    1952 22 Nov 14:59 licenses
+drwxrwxr-x    9 daemon     daemon    288 23 Nov 18:35 logs
+drwxrwxr-x    7 root       admin     224 22 Nov 15:01 man
+drwxrwxr-x    3 root       admin      96 22 Nov 15:03 manager-osx.app
+drwxrwxr-x  206 root       admin    6592 22 Nov 15:01 manual
+drwxrwxr-x  107 root       admin    3424 22 Nov 14:59 modules
+drwxrwxr-x    4 root       admin     128 22 Nov 14:59 mysql
+drwxrwxr-x    2 root       admin      64 22 Nov 14:59 pear
+drwxrwxr-x    3 root       admin      96 22 Nov 14:59 php
+drwxrwxr-x   31 root       admin     992 22 Nov 15:03 phpmyadmin
+drwxrwxr-x    4 root       admin     128 22 Nov 14:59 proftpd
+-rw-rw-r--    1 root       admin    1176 23 Nov 18:35 properties.ini
+drwxr-xr-x   14 root       admin     448 22 Nov 14:59 sbin
+drwxr-xr-x   62 root       admin    1984 22 Nov 14:59 share
+drwxrwxrwx    4 daemon     daemon    128 23 Nov 18:56 temp
+drwxrwxr-x   12 root       admin     384 23 Nov 18:50 var
+-rwxrwxr-x    1 root       admin   15297 22 Nov 11:37 xampp
+zhulijuan@zhulijuans-MacBook-Pro xamppfiles % cd mysql
+zhulijuan@zhulijuans-MacBook-Pro mysql % ls
+README.txt	scripts
+zhulijuan@zhulijuans-MacBook-Pro mysql % vi README.txt 
+zhulijuan@zhulijuans-MacBook-Pro mysql % cd ../bin
+zhulijuan@zhulijuans-MacBook-Pro bin % ls
+GET					msgfilter
+HEAD					msgfmt
+POST					msggrep
+ab					msginit
+annotate				msgmerge
+apachectl				msgunfmt
+apr-1-config				msguniq
+apreq2-config				msql2mysql
+apu-1-config				my_print_defaults
+apxs					myisam_ftdump
+aria_chk				myisamchk
+aria_dump_log				myisamlog
+aria_ftdump				myisampack
+aria_pack				myrocks_hotbackup
+aria_read_log				mysql
+autopoint				mysql.server
+bdftogd					mysql_client_test
+bison					mysql_config
+bmp2tiff				mysql_convert_table_format
+bsqldb					mysql_find_rows
+bunzip2					mysql_fix_extensions
+bzcat					mysql_install_db
+bzcmp					mysql_ldb
+bzdiff					mysql_plugin
+bzegrep					mysql_secure_installation
+bzfgrep					mysql_setpermission
+bzgrep					mysql_tzinfo_to_sql
+bzip2					mysql_upgrade
+bzip2recover				mysql_waitpid
+bzless					mysqlaccess
+bzmore					mysqladmin
+c_rehash				mysqlbinlog
+captoinfo				mysqlcheck
+checkgid				mysqld_multi
+cjpeg					mysqld_safe
+clear					mysqld_safe_helper
+corelist				mysqldump
+cpan					mysqldumpslow
+crc32					mysqlhotcopy
+curl					mysqlimport
+curl-config				mysqlshow
+cwebp					mysqlslap
+datacopy				mysqltest
+dbilogstrip				mytop
+dbiprof					ncurses5-config
+dbiproxy				ngettext
+dbl2png					onig-config
+dbmmanage				openssl
+defncopy				osql
+derb					pal2rgb
+djpeg					pcre-config
+dwebp					pcregrep
+enc2xs					pcretest
+encguess				pear
+envsubst				peardev
+envvars					pearinfo
+envvars-std				pecl
+fax2ps					perl
+fax2tiff				perl5.34.1
+fcgistarter				perlbug
+fisql					perldoc
+fix_rights				perlivp
+flex					perlthanks
+flex++					perror
+freebcp					phar
+freetype-config				phar.phar
+ftpasswd				php
+ftpcount				php-7.4.33
+ftpdctl					php-cgi
+ftpmail					php-cgi-7.4.33
+ftpquota				php-config
+ftptop					php-config-7.4.33
+ftpwho					phpdbg
+gd2copypal				phpize
+gd2togif				phpize-7.4.33
+gd2topng				phpunit
+gdcmpgif				piconv
+gdparttopng				pkg-config
+gdtopng					pkgdata
+gen_php_doc.sh				pl2pm
+genbrk					png-fix-itxt
+gencfu					png2dbl
+gencnval				pngfix
+gendict					pngtogd
+genrb					pngtogd2
+gettext					pod2html
+gettext.sh				pod2man
+gettextize				pod2text
+gif2tiff				pod2usage
+giftogd2				podchecker
+h2ph					ppm2tiff
+h2xs					prove
+htcacheclean				prxs
+htdbm					ptar
+htdigest				ptardiff
+html_template_phplibtool		ptargrep
+htpasswd				ras2tiff
+httpd					raw2adpcm
+httxt2dbm				raw2tiff
+icu-config				rdjpgcom
+icuinfo					recode-sr-latin
+infocmp					replace
+infotocap				reset
+innochecksum				resolve_stack_dump
+instmodsh				resolveip
+jpegtran				rgb2ycbcr
+json_pp					rotatelogs
+ldapadd					sabcmd
+ldapcompare				sablot-config
+ldapdelete				shasum
+ldapexop				splain
+ldapmodify				sqlite
+ldapmodrdn				sqlite3
+ldappasswd				sst_dump
+ldapsearch				streamzip
+ldapurl					suexec
+ldapwhoami				swftocxx
+libmcrypt-config			swftoperl
+libnetcfg				swftophp
+libpng-config				swftopython
+libpng16-config				swftotcl
+listaction				tabs
+listaction_d				tdspool
+listfdb					thumbnail
+listjpeg				tic
+listmp3					tiff2bw
+listswf					tiff2pdf
+listswf_d				tiff2ps
+logresolve				tiff2rgba
+lwp-download				tiffcmp
+lwp-mirror				tiffcp
+lwp-request				tiffcrop
+lwp-rget				tiffdither
+makeconv				tiffdump
+makefdb					tiffinfo
+makeswf					tiffmedian
+mariabackup				tiffset
+mariadb					tiffsplit
+mariadb-access				toe
+mariadb-admin				tput
+mariadb-backup				tset
+mariadb-binlog				tsql
+mariadb-check				uconv
+mariadb-client-test			unzip-mem
+mariadb-convert-table-format		unzzip
+mariadb-dump				unzzipcat
+mariadb-dumpslow			unzzipcat-mem
+mariadb-find-rows			unzzipcat-seeko
+mariadb-fix-extensions			unzzipdir
+mariadb-hotcopy				unzzipdir-mem
+mariadb-import				use-devel-checklib
+mariadb-install-db			wcmgr
+mariadb-ldb				webalizer
+mariadb-plugin				webazolver
+mariadb-secure-installation		webpng
+mariadb-setpermission			wrjpgcom
+mariadb-show				wsrep_sst_backup
+mariadb-slap				wsrep_sst_common
+mariadb-test				wsrep_sst_mariabackup
+mariadb-tzinfo-to-sql			wsrep_sst_mysqldump
+mariadb-upgrade				wsrep_sst_rsync
+mariadb-waitpid				wsrep_sst_rsync_wan
+mariadb_config				x86_64-apple-darwin14.5.0-pkg-config
+mariadbd-multi				xgettext
+mariadbd-safe				xmlwf
+mariadbd-safe-helper			xsubpp
+mbstream				yacc
+ming-config				zipcmp
+mp2bug					zipdetails
+msgattrib				zipmerge
+msgcat					ziptool
+msgcmp					zzcat
+msgcomm					zzdir
+msgconv					zzxorcat
+msgen					zzxorcopy
+msgexec					zzxordir
+zhulijuan@zhulijuans-MacBook-Pro bin % ls -l my*
+-rwxr-xr-x  1 root  admin  3867320 22 Nov 00:45 my_print_defaults
+-rwxr-xr-x  1 root  admin  4228420 22 Nov 00:46 myisam_ftdump
+-rwxr-xr-x  1 root  admin  4351776 22 Nov 00:46 myisamchk
+-rwxr-xr-x  1 root  admin  4205480 22 Nov 00:46 myisamlog
+-rwxr-xr-x  1 root  admin  4252796 22 Nov 00:46 myisampack
+-rwxr-xr-x  1 root  admin    25049 22 Nov 00:44 myrocks_hotbackup
+-rwxr-xr-x  1 root  admin  4338684 22 Nov 00:45 mysql
+lrwxr-xr-x  1 root  admin       27 22 Nov 14:59 mysql.server -> ../share/mysql/mysql.server
+-rwxr-xr-x  1 root  admin  4893160 22 Nov 00:45 mysql_client_test
+-rwxr-xr-x  1 root  admin     4764 22 Nov 00:44 mysql_config
+-rwxr-xr-x  1 root  admin     4217 22 Nov 00:44 mysql_convert_table_format
+-rwxr-xr-x  1 root  admin     3290 22 Nov 00:44 mysql_find_rows
+-rwxr-xr-x  1 root  admin     1250 22 Nov 00:44 mysql_fix_extensions
+-rwxr-xr-x  1 root  admin    21873 22 Nov 00:44 mysql_install_db
+-rwxr-xr-x  1 root  admin  6593852 22 Nov 00:46 mysql_ldb
+-rwxr-xr-x  1 root  admin  3877640 22 Nov 00:45 mysql_plugin
+-rwxr-xr-x  1 root  admin    13741 22 Nov 00:44 mysql_secure_installation
+-rwxr-xr-x  1 root  admin    17542 22 Nov 00:44 mysql_setpermission
+-rwxr-xr-x  1 root  admin  3876584 22 Nov 00:45 mysql_tzinfo_to_sql
+-rwxr-xr-x  1 root  admin  3965832 22 Nov 00:45 mysql_upgrade
+-rwxr-xr-x  1 root  admin  3866848 22 Nov 00:45 mysql_waitpid
+-rwxr-xr-x  1 root  admin   112132 22 Nov 00:44 mysqlaccess
+-rwxr-xr-x  1 root  admin  4204832 22 Nov 00:45 mysqladmin
+-rwxr-xr-x  1 root  admin  4575372 22 Nov 00:45 mysqlbinlog
+-rwxr-xr-x  1 root  admin  4191332 22 Nov 00:45 mysqlcheck
+-rwxr-xr-x  1 root  admin    27821 22 Nov 00:44 mysqld_multi
+-rwxr-xr-x  1 root  admin    31309 22 Nov 00:49 mysqld_safe
+-rwxr-xr-x  1 root  admin  3826104 22 Nov 00:45 mysqld_safe_helper
+-rwxr-xr-x  1 root  admin  4295440 22 Nov 00:45 mysqldump
+-rwxr-xr-x  1 root  admin     8242 22 Nov 00:44 mysqldumpslow
+-rwxr-xr-x  1 root  admin    34963 22 Nov 00:44 mysqlhotcopy
+-rwxr-xr-x  1 root  admin  4184632 22 Nov 00:45 mysqlimport
+-rwxr-xr-x  1 root  admin  4177408 22 Nov 00:45 mysqlshow
+-rwxr-xr-x  1 root  admin  4206192 22 Nov 00:45 mysqlslap
+-rwxr-xr-x  1 root  admin  4504324 22 Nov 00:45 mysqltest
+-rwxr-xr-x  1 root  admin    62528 22 Nov 00:44 mytop
+zhulijuan@zhulijuans-MacBook-Pro bin % mysql -u root -p
+zsh: command not found: mysql
+zhulijuan@zhulijuans-MacBook-Pro bin % ./mysql -u root -p
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 147
+Server version: 10.4.27-MariaDB Source distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> 
+MariaDB [(none)]> 
+MariaDB [(none)]> mysql -version;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mysql -version' at line 1
+MariaDB [(none)]> 
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| A01327855_user     |
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+6 rows in set (0.004 sec)
+
+MariaDB [(none)]> use test;
+Database changed
+MariaDB [test]> show tables;
+Empty set (0.003 sec)
+
+MariaDB [test]> 
+MariaDB [test]> 
+MariaDB [test]> create-tables.sql
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-tables.sql' at line 1
+MariaDB [test]> CREATE TABLE user (
+    ->   ID int NOT NULL AUTO_INCREMENT,
+    ->   user_name VARCHAR(50),
+    ->   first_name VARCHAR(50),
+    ->   last_name VARCHAR(50),
+    ->   password VARCHAR(50),
+    ->   PRIMARY KEY (ID)
+    -> );
+Query OK, 0 rows affected (0.033 sec)
+
+MariaDB [test]> show tables;
++----------------+
+| Tables_in_test |
++----------------+
+| user           |
++----------------+
+1 row in set (0.002 sec)
+
+MariaDB [test]> describe user;
++------------+-------------+------+-----+---------+----------------+
+| Field      | Type        | Null | Key | Default | Extra          |
++------------+-------------+------+-----+---------+----------------+
+| ID         | int(11)     | NO   | PRI | NULL    | auto_increment |
+| user_name  | varchar(50) | YES  |     | NULL    |                |
+| first_name | varchar(50) | YES  |     | NULL    |                |
+| last_name  | varchar(50) | YES  |     | NULL    |                |
+| password   | varchar(50) | YES  |     | NULL    |                |
++------------+-------------+------+-----+---------+----------------+
+5 rows in set (0.008 sec)
+
+MariaDB [test]> select * from  user;
+Empty set (0.002 sec)
+
+MariaDB [test]> 
+MariaDB [test]> 
+MariaDB [test]> CREATE TABLE address (
+    ->   ID int NOT NULL AUTO_INCREMENT,
+    ->   user_id int NOT NULL,
+    ->   street VARCHAR(50),
+    ->   postal_code VARCHAR(20),
+    ->   PRIMARY KEY (ID),
+    ->   FOREIGN KEY (user_id) REFERENCES user(ID) ON UPDATE CASCADE ON DELETE CASCADE
+    -> );
+Query OK, 0 rows affected (0.035 sec)
+
+MariaDB [test]> 
+MariaDB [test]> CREATE TABLE cart (
+    ->   ID int NOT NULL AUTO_INCREMENT,
+    ->   user_id int NOT NULL,
+    ->   -- 0 = started, 1 = completed
+    ->   state int NOT NULL,
+    ->   time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    ->   PRIMARY KEY (ID),
+    ->   -- UPDATE/DELETE CASCADE = allow cascading operation, UPDATE/DELETE RESTRICT = disallow cascading operation
+    ->   FOREIGN KEY (user_id) REFERENCES user(ID) ON UPDATE CASCADE ON DELETE CASCADE
+    -> );
+Query OK, 0 rows affected (0.023 sec)
+
+MariaDB [test]> 
+MariaDB [test]> CREATE TABLE item (
+    ->   ID int NOT NULL AUTO_INCREMENT,
+    ->   cart_id INT NOT NULL,
+    ->   -- stock keeping unit
+    ->   SKU VARCHAR(100) NOT NULL,
+    ->   item_price  numeric(15, 2) NOT NULL,
+    ->   quantity INT NOT NULL,
+    ->   description VARCHAR(100) NOT NULL,
+    ->   PRIMARY KEY (ID),
+    ->   FOREIGN KEY (cart_id) REFERENCES cart(ID) ON UPDATE CASCADE ON DELETE CASCADE
+    -> );
+Query OK, 0 rows affected (0.024 sec)
+
+MariaDB [test]> 
+MariaDB [test]> CREATE TABLE product (
+    ->   ID int NOT NULL AUTO_INCREMENT,
+    ->   -- stock keeping unit
+    ->   SKU VARCHAR(100) NOT NULL,
+    ->   item_price  numeric(15, 2) NOT NULL,
+    ->   description VARCHAR(100) NOT NULL,
+    ->   PRIMARY KEY (ID)
+    -> );
+Query OK, 0 rows affected (0.038 sec)
+
+MariaDB [test]> INSERT INTO user (ID, user_name, first_name, last_name, password) VALUES (1, 'jparry', 'jim', 'parry', 'java');
+Query OK, 1 row affected (0.005 sec)
+
+MariaDB [test]> INSERT INTO user (ID, user_name, first_name, last_name, password) VALUES (2, 'a-aron', 'arron', 'ferguson', 'a123');
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [test]> INSERT INTO user (ID, user_name, first_name, last_name, password) VALUES (3, 'donna', 'donna', 'turner', 'a123');
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [test]> INSERT INTO user (ID, user_name, first_name, last_name, password) VALUES (4, 'jason', 'jason', 'wilder', 'a123');
+Query OK, 1 row affected (0.000 sec)
+
+MariaDB [test]> INSERT INTO user (ID, user_name, first_name, last_name, password) VALUES (5, 'keith', 'keith', 'tang', 'a123');
+Query OK, 1 row affected (0.000 sec)
+
+MariaDB [test]> INSERT INTO user (ID, user_name, first_name, last_name, password) VALUES (6, 'arnold', 'arnold', 'schwarzenegger ', 'illbeback');
+Query OK, 1 row affected (0.000 sec)
+
+MariaDB [test]> 
+MariaDB [test]> 
+MariaDB [test]> INSERT INTO address (user_id, street, postal_code) VALUES (2, '123 street', 'x1x1x1');
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [test]> INSERT INTO address (user_id, street, postal_code) VALUES (2, '456 ave', 'y2y2y2');
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [test]> 
+MariaDB [test]> INSERT INTO cart (user_id, state) VALUES (1, 0);
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [test]> INSERT INTO cart (user_id, state) VALUES (1, 1);
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [test]> 
+MariaDB [test]> INSERT INTO item (SKU, cart_id, item_price, quantity, description) VALUES ('sk-2843y', 1, 14.99, 1, 'toaster');
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [test]> INSERT INTO item (SKU, cart_id, item_price, quantity, description) VALUES ('sk-327623z', 2, 3.99, 2, 'napkins');
+Query OK, 1 row affected (0.000 sec)
+
+MariaDB [test]> INSERT INTO item (SKU, cart_id, item_price, quantity, description) VALUES ('sk-438s3x', 2, 1.99, 5, 'coffee cups');
+Query OK, 1 row affected (0.000 sec)
+
+MariaDB [test]> 
+MariaDB [test]> INSERT INTO product (SKU, item_price, description) VALUES ('sk-2843y', 14.99, 'toaster');
+Query OK, 1 row affected (0.000 sec)
+
+MariaDB [test]> INSERT INTO product (SKU, item_price, description) VALUES ('sk-327623z', 3.99, 'napkins');
+Query OK, 1 row affected (0.000 sec)
+
+MariaDB [test]> INSERT INTO product (SKU, item_price, description) VALUES ('sk-438s3x', 1.99, 'coffee cups');
+Query OK, 1 row affected (0.000 sec)
+
+MariaDB [test]> 
+MariaDB [test]> commit;
+Query OK, 0 rows affected (0.001 sec)
+
+MariaDB [test]> 
+MariaDB [test]> select * from user;
++----+-----------+------------+-----------------+-----------+
+| ID | user_name | first_name | last_name       | password  |
++----+-----------+------------+-----------------+-----------+
+|  1 | jparry    | jim        | parry           | java      |
+|  2 | a-aron    | arron      | ferguson        | a123      |
+|  3 | donna     | donna      | turner          | a123      |
+|  4 | jason     | jason      | wilder          | a123      |
+|  5 | keith     | keith      | tang            | a123      |
+|  6 | arnold    | arnold     | schwarzenegger  | illbeback |
++----+-----------+------------+-----------------+-----------+
+6 rows in set (0.005 sec)
+
+MariaDB [test]> 
+MariaDB [test]> exit
+Bye
+zhulijuan@zhulijuans-MacBook-Pro bin % ls node
+ls: node: No such file or directory
+zhulijuan@zhulijuans-MacBook-Pro bin % pwd
+/Applications/XAMPP/xamppfiles/bin
+zhulijuan@zhulijuans-MacBook-Pro bin % ls
+GET					msgfilter
+HEAD					msgfmt
+POST					msggrep
+ab					msginit
+annotate				msgmerge
+apachectl				msgunfmt
+apr-1-config				msguniq
+apreq2-config				msql2mysql
+apu-1-config				my_print_defaults
+apxs					myisam_ftdump
+aria_chk				myisamchk
+aria_dump_log				myisamlog
+aria_ftdump				myisampack
+aria_pack				myrocks_hotbackup
+aria_read_log				mysql
+autopoint				mysql.server
+bdftogd					mysql_client_test
+bison					mysql_config
+bmp2tiff				mysql_convert_table_format
+bsqldb					mysql_find_rows
+bunzip2					mysql_fix_extensions
+bzcat					mysql_install_db
+bzcmp					mysql_ldb
+bzdiff					mysql_plugin
+bzegrep					mysql_secure_installation
+bzfgrep					mysql_setpermission
+bzgrep					mysql_tzinfo_to_sql
+bzip2					mysql_upgrade
+bzip2recover				mysql_waitpid
+bzless					mysqlaccess
+bzmore					mysqladmin
+c_rehash				mysqlbinlog
+captoinfo				mysqlcheck
+checkgid				mysqld_multi
+cjpeg					mysqld_safe
+clear					mysqld_safe_helper
+corelist				mysqldump
+cpan					mysqldumpslow
+crc32					mysqlhotcopy
+curl					mysqlimport
+curl-config				mysqlshow
+cwebp					mysqlslap
+datacopy				mysqltest
+dbilogstrip				mytop
+dbiprof					ncurses5-config
+dbiproxy				ngettext
+dbl2png					onig-config
+dbmmanage				openssl
+defncopy				osql
+derb					pal2rgb
+djpeg					pcre-config
+dwebp					pcregrep
+enc2xs					pcretest
+encguess				pear
+envsubst				peardev
+envvars					pearinfo
+envvars-std				pecl
+fax2ps					perl
+fax2tiff				perl5.34.1
+fcgistarter				perlbug
+fisql					perldoc
+fix_rights				perlivp
+flex					perlthanks
+flex++					perror
+freebcp					phar
+freetype-config				phar.phar
+ftpasswd				php
+ftpcount				php-7.4.33
+ftpdctl					php-cgi
+ftpmail					php-cgi-7.4.33
+ftpquota				php-config
+ftptop					php-config-7.4.33
+ftpwho					phpdbg
+gd2copypal				phpize
+gd2togif				phpize-7.4.33
+gd2topng				phpunit
+gdcmpgif				piconv
+gdparttopng				pkg-config
+gdtopng					pkgdata
+gen_php_doc.sh				pl2pm
+genbrk					png-fix-itxt
+gencfu					png2dbl
+gencnval				pngfix
+gendict					pngtogd
+genrb					pngtogd2
+gettext					pod2html
+gettext.sh				pod2man
+gettextize				pod2text
+gif2tiff				pod2usage
+giftogd2				podchecker
+h2ph					ppm2tiff
+h2xs					prove
+htcacheclean				prxs
+htdbm					ptar
+htdigest				ptardiff
+html_template_phplibtool		ptargrep
+htpasswd				ras2tiff
+httpd					raw2adpcm
+httxt2dbm				raw2tiff
+icu-config				rdjpgcom
+icuinfo					recode-sr-latin
+infocmp					replace
+infotocap				reset
+innochecksum				resolve_stack_dump
+instmodsh				resolveip
+jpegtran				rgb2ycbcr
+json_pp					rotatelogs
+ldapadd					sabcmd
+ldapcompare				sablot-config
+ldapdelete				shasum
+ldapexop				splain
+ldapmodify				sqlite
+ldapmodrdn				sqlite3
+ldappasswd				sst_dump
+ldapsearch				streamzip
+ldapurl					suexec
+ldapwhoami				swftocxx
+libmcrypt-config			swftoperl
+libnetcfg				swftophp
+libpng-config				swftopython
+libpng16-config				swftotcl
+listaction				tabs
+listaction_d				tdspool
+listfdb					thumbnail
+listjpeg				tic
+listmp3					tiff2bw
+listswf					tiff2pdf
+listswf_d				tiff2ps
+logresolve				tiff2rgba
+lwp-download				tiffcmp
+lwp-mirror				tiffcp
+lwp-request				tiffcrop
+lwp-rget				tiffdither
+makeconv				tiffdump
+makefdb					tiffinfo
+makeswf					tiffmedian
+mariabackup				tiffset
+mariadb					tiffsplit
+mariadb-access				toe
+mariadb-admin				tput
+mariadb-backup				tset
+mariadb-binlog				tsql
+mariadb-check				uconv
+mariadb-client-test			unzip-mem
+mariadb-convert-table-format		unzzip
+mariadb-dump				unzzipcat
+mariadb-dumpslow			unzzipcat-mem
+mariadb-find-rows			unzzipcat-seeko
+mariadb-fix-extensions			unzzipdir
+mariadb-hotcopy				unzzipdir-mem
+mariadb-import				use-devel-checklib
+mariadb-install-db			wcmgr
+mariadb-ldb				webalizer
+mariadb-plugin				webazolver
+mariadb-secure-installation		webpng
+mariadb-setpermission			wrjpgcom
+mariadb-show				wsrep_sst_backup
+mariadb-slap				wsrep_sst_common
+mariadb-test				wsrep_sst_mariabackup
+mariadb-tzinfo-to-sql			wsrep_sst_mysqldump
+mariadb-upgrade				wsrep_sst_rsync
+mariadb-waitpid				wsrep_sst_rsync_wan
+mariadb_config				x86_64-apple-darwin14.5.0-pkg-config
+mariadbd-multi				xgettext
+mariadbd-safe				xmlwf
+mariadbd-safe-helper			xsubpp
+mbstream				yacc
+ming-config				zipcmp
+mp2bug					zipdetails
+msgattrib				zipmerge
+msgcat					ziptool
+msgcmp					zzcat
+msgcomm					zzdir
+msgconv					zzxorcat
+msgen					zzxorcopy
+msgexec					zzxordir
+zhulijuan@zhulijuans-MacBook-Pro bin % pwd
+/Applications/XAMPP/xamppfiles/bin
+zhulijuan@zhulijuans-MacBook-Pro bin % pwd
+/Applications/XAMPP/xamppfiles/bin
+zhulijuan@zhulijuans-MacBook-Pro bin % cd ../../..
+zhulijuan@zhulijuans-MacBook-Pro /Applications % ls
+Adobe Acrobat DC
+Adobe Creative Cloud
+Aruba VIA.app
+Discord.app
+GarageBand.app
+Google Chrome.app
+ICBC_MS_SafeCheck.app
+ICBC_Safari_FT.app
+ICBC_USBKeyTool_FT.app
+Keynote.app
+Lightshot Screenshot.app
+Microsoft Excel.app
+Microsoft OneNote.app
+Microsoft Outlook.app
+Microsoft PowerPoint.app
+Microsoft Teams.app
+Microsoft Word.app
+Microsoft_Office_16.64.22081401_BusinessPro_Installer.pkg
+Numbers.app
+OneDrive.app
+Pages.app
+Read&Write.app
+Safari.app
+SafeInputApp.app
+Slack-4.28.171-macOS.dmg
+Slack.app
+Software2
+The Unarchiver.app
+Utilities
+Visual Studio Code.app
+WeChat.app
+XAMPP
+Xcode.app
+apache-ant-1.10.12
+appsanywhere-setup-[84ab5ecd1f].app
+googlechrome.dmg
+iMovie.app
+jdk-17_macos-aarch64_bin.dmg
+xampp-osx-7.4.33-0-installer.dmg
+zoom.us.app
+zhulijuan@zhulijuans-MacBook-Pro /Applications % cd /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0\ -\ Web\ Development\ 1\ -Lecture/code/mysql-and-node-with-join
+zhulijuan@zhulijuans-MacBook-Pro mysql-and-node-with-join % node mysq-join.js
+Listening on port 8000!
+Error: Cannot find module 'mysql2'
+Require stack:
+- /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js:23:19
+    at Layer.handle [as handle_request] (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/index.js:284:15
+node:internal/modules/cjs/loader:995
+  const err = new Error(message);
+              ^
+
+Error: Cannot find module 'mysql2/promise'
+Require stack:
+- /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at connectToMySQL (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js:125:19)
+    at /Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js:120:5
+    at Layer.handle [as handle_request] (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/node_modules/express/lib/router/layer.js:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/zhulijuan/Downloads/BCIT/Term1/COMP-1537-0 - Web Development 1 -Lecture/code/mysql-and-node-with-join/mysq-join.js'
+  ]
+}
+
+Node.js v18.11.0
+zhulijuan@zhulijuans-MacBook-Pro mysql-and-node-with-join % netstat -an|grep 3306
+tcp46      0      0  *.3306                 *.*                    LISTEN     
+zhulijuan@zhulijuans-MacBook-Pro mysql-and-node-with-join % npm install --save mysql2
+
+added 14 packages, and audited 84 packages in 621ms
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+zhulijuan@zhulijuans-MacBook-Pro mysql-and-node-with-join % node mysq-join.js        
+Listening on port 8000!
+null why is this null?
+results: [
+  {
+    ID: 2,
+    user_name: 'a-aron',
+    first_name: 'arron',
+    last_name: 'ferguson',
+    password: 'a123'
+  }
+]
+rows [
+  {
+    ID: 2,
+    user_name: 'a-aron',
+    first_name: 'arron',
+    last_name: 'ferguson',
+    password: 'a123'
+  }
+]
+results: [
+  { street: '123 street', postal_code: 'x1x1x1' },
+  { street: '456 ave', postal_code: 'y2y2y2' }
+]
+null why is this null?
+results: [
+  {
+    ID: 2,
+    user_name: 'a-aron',
+    first_name: 'arron',
+    last_name: 'ferguson',
+    password: 'a123'
+  }
+]
+null why is this null?
+results: [
+  {
+    ID: 2,
+    user_name: 'a-aron',
+    first_name: 'arron',
+    last_name: 'ferguson',
+    password: 'a123'
+  }
+]
